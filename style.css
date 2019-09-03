@@ -1,0 +1,153 @@
+body {
+  text-align: center;
+  background-color: #7f8c8d;
+  height: 1000px;
+}
+
+.header {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  margin: -25px;
+  text-shadow: 10px 10px black;
+}
+
+.menu {
+  text-shadow: 10px 10px black;
+  font-weight: bold;
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu li {
+  float: left;
+  font-family: 'Oswald', sans-serif;
+}
+
+.menu li a {
+  padding: 14px 30px;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.menu ul li a {
+  text-align: center;
+}
+
+.gambar img {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.overlay {
+  background-color: black;
+  margin-top: 80px;
+  position: absolute;
+  width: 100%;
+  height: 890px;
+  opacity: 0.2;
+}
+
+.gambar h1 {
+  position: relative;
+  margin-top: -500px;
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  text-shadow: 10px 10px black;
+}
+
+.gambar h2 {
+  position: relative;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  text-shadow: 10px 10px black;
+}
+
+.gambar p {
+  margin: 0 auto;
+  position: relative;
+  font-size: 20px;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  margin-top: 300px;
+  border: 2px solid white;
+  width: 20%;
+  padding: 10px 2px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.about {
+  margin-top: 0;
+  width: 100%;
+  min-height: 700px;
+  background-color: white;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.about h1 {
+  text-align: left;
+  text-shadow: 10px 10px #95a5a6;
+  margin-top: 70px;
+  margin-left: 20px;
+  color: black;
+  font-size: 50px;
+
+}
+
+.about h2, .about p {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.about hr {
+  margin-left: 10px;
+  width: 60%;
+}
+
+.jud {
+  padding: 20px;
+}
+
+.tentang {
+  display: flex;
+  padding: 50px;
+}
+
+.col{
+  flex: 50%;
+}
+
+.contact{
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  min-height: 500px;
+}
+
+.contact h1 {
+  text-shadow: 10px 10px black;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 60px;
+  font-size: 50px;
+}
+
+.logo_kontak img{
+  width: 100px;
+  padding: 70px;
+}
